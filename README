@@ -1,0 +1,6 @@
+sudo apt install python3-venv
+python3 -m venv cat_dog_classifier-myenv
+source cat_dog_classifier-myenv/bin/activate
+pip install -r requirements.txt
+python3 scripts/train.py
+python3 scripts/evaluate.py
